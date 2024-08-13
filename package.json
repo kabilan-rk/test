@@ -1,0 +1,52 @@
+{
+  "name": "react-native-virgil-crypto",
+  "version": "0.6.4",
+  "description": "React Native Bridge for Virgil Crypto Library",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "index.js",
+    "index.d.ts",
+    "RNVirgilCrypto.podspec"
+  ],
+  "repository": "https://github.com/VirgilSecurity/react-native-virgil-crypto",
+  "author": "Virgil Security Inc. <support@virgilsecurity.com>",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "react-native",
+    "security",
+    "virgil",
+    "virgilsecurity",
+    "encryption",
+    "crypto"
+  ],
+  "scripts": {
+    "test": "jest index.spec.js src"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.6",
+    "@virgilsecurity/crypto-types": "2.0.0",
+    "buffer": "^6.0.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native/metro-config": "0.74.83",
+    "@react-native/typescript-config": "0.74.83",
+    "babel-jest": "^29.4.2",
+    "jest": "^29.6.3",
+    "metro-react-native-babel-preset": "^0.75.0",
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
